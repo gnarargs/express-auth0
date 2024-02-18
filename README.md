@@ -8,3 +8,8 @@ Starter template for JavaScript apps
 - TypeScript
 - Jest
 - GitHub Actions Workflow
+
+## GitHub Actions workflow
+
+- Install dependencies
+- Run tests
