@@ -1,17 +1,11 @@
-# JS Starter
+# Express
 
-Starter template for JavaScript apps
+Learning express
 
-## What's in it
+## Goals
 
-- .nvmrc
-- TypeScript
-- eslint
-- Jest
-- GitHub Actions Workflow
+- Run server and respond with text
+- Render template
+- Serve image
+- Add routes
 
-## GitHub Actions workflow
-
-- Install dependencies
-- Run linter
-- Run tests
