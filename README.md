@@ -6,10 +6,12 @@ Starter template for JavaScript apps
 
 - .nvmrc
 - TypeScript
+- eslint
 - Jest
 - GitHub Actions Workflow
 
 ## GitHub Actions workflow
 
 - Install dependencies
+- Run linter
 - Run tests
