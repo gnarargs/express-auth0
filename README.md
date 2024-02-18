@@ -6,3 +6,5 @@ Starter template for JavaScript apps
 
 - .nvmrc
 - TypeScript
+- Jest
+- GitHub Actions Workflow
