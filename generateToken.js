@@ -11,9 +11,9 @@ const authClientID = process.env.AUTH0_CLIENT_ID
 const authClientSecret = process.env.AUTH0_CLIENT_SECRET
 const authRedirectUri = process.env.AUTH0_REDIRECT_URI
 
-const authRedirect = `https://${authDomain}/authorize?response_type=code&client_id=${authClientID}&redirect_uri=${encodeURIComponent(authRedirectUri)}&scope=openid%20profile`
+const authorizeRequest = `https://${authDomain}/authorize?response_type=code&client_id=${authClientID}&redirect_uri=${encodeURIComponent(authRedirectUri)}&scope=openid%20profile`
 
-exec(`open "${authRedirect}"`)
+exec(`open "${authorizeRequest}"`)
 
 app.get('/callback', async (req, res) => {
     const code = req.query.code.toString()
